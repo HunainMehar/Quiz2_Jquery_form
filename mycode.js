@@ -14,7 +14,7 @@ $(function () {
       
       $("#name").addClass("error");
       return;
-      // alert("Please fill all fields...!!!!!!");
+      alert("Please fill all fields...!!!!!!");
       
     }
     else if ((password.length) < 8) 

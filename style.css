@@ -24,6 +24,6 @@ form input {
   box-sizing: border-box;
 }
 
-form .error {
-    color: #ff0000;
+form .error { 
+    border: 1px solid red;
 }
