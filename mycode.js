@@ -11,9 +11,6 @@ $(function () {
     var confirm_password= $("#confirm_password").val();
     if (name == '' || email == '' || password == '' || confirm_password == '') 
     {
-      
-      $("#name").addClass("error");
-      return;
       alert("Please fill all fields...!!!!!!");
       
     }
